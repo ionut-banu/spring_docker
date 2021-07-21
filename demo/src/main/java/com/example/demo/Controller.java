@@ -8,7 +8,7 @@ public class Controller {
 
     @GetMapping("/index")
     public String index() {
-        return "Hello Docker!2";
+        return "Hello Docker!";
     }
 
 }

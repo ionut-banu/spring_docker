@@ -2,7 +2,7 @@
 FROM maven:3.6.3-adoptopenjdk-11 as base
 
 # set working directory
-WORKDIR /app
+WORKDIR /opt/demo
 
 # copy project files
 COPY . .
